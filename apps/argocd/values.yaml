@@ -1,0 +1,7 @@
+server:
+  replicas: 1
+  ingress:
+    enabled: true
+    ingressClassName: traefik
+    hosts:
+      - argocd.example.com
